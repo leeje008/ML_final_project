@@ -1,0 +1,24 @@
+classification of imabalanced Data
+
+Two approachs we can apply
+
+=>sample based approach / oversampling,undersampling,hybrid 
+
+oversampling의 경우 overfitting과 computation problem이 발생 loss of information은 x
+
+undersampling의 경우 overfitting과 computation에 있어서 oversampling에 비하면 장점을 가짐 하지만 loss-information이 발생
+
+smote-bagging =>  SMOTE를 적용하여 balaced 형태를 맞춘 후  bagging 기법 적용
+
+RUSBoost/SMOTEboost (모델이 강제된다는 단점)
+
+SMOTE-NC/SMOTE SVM
+
+=> cost function approach
+
+target이 되는 loss-function의 가중치를 조절해서(소수 클래스의 오류를 더 가중치를 새게) 학습을 진행하는 방법
+
+deeplearning using weighted cross entropy
+
+
+
