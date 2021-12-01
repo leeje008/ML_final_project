@@ -4,17 +4,19 @@ data structure
 
 EDA => imabalanced
 
-imbalanced 3 가지 기법에 대한 소개
+imbalanced 4 가지 기법에 대한 소개
 
 oversampling project
 
 각각 기법에 대한 설명
 
-본격적인 모델링
+전처리 (ID drop /label encoder)
+
+본격적인 모델링 + @ 
 
 over x / random over / smote / smote variant/ ADAsyn / svm smote
 
-logit => [성능 / 시간]
+[성능 / 시간] 
 
 tunning => grid search 
 
@@ -22,6 +24,4 @@ plotting
 
 한계점
 
-
-
-
+ada/knn/rf/lda/qda/lgb/xgb + NN
